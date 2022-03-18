@@ -152,7 +152,7 @@ export default function () {
                 value={secretToView?.message}
                 variant="outlined"
                 multiline
-                rows={15}
+                rows={10}
             />
 
         </Dialog>
@@ -213,7 +213,7 @@ export default function () {
                 onChange={formik.handleChange}
                 value={formik.values.message}
                 multiline
-                rows={3}
+                rows={7}
                 variant="outlined"
             />
         </Dialog>

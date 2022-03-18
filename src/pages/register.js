@@ -54,7 +54,7 @@ const StyledTextField = styled(TextField)({
 
 function register() {
 
-    const Router = useRouter()
+    const router = useRouter()
 
     // Yup text field validation
     const validationSchema = Yup.object({
@@ -171,7 +171,7 @@ function register() {
                             Already have an account?{" "}
                             <span
                                 className='hover:text-white underline hover:cursor-pointer'
-                                onClick={() => { Router.push("/login") }}
+                                onClick={() => { router.push("/login") }}
                             >
                                 Sign-In
                             </span>
