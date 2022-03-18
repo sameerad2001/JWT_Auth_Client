@@ -14,10 +14,10 @@ Sections :
 
 ### Demo
 
-<img src = "https://github.com/sameerad2001/JWT_Auth_Client/blob/master/public/jwt.gif" alt = "Website Demo"/>
-<img src = "https://github.com/sameerad2001/JWT_Auth_Client/blob/master/public/jwt3.jpg" alt = "Website Demo"/>
-<img src = "https://github.com/sameerad2001/JWT_Auth_Client/blob/master/public/jwt1.jpg" alt = "Website Demo"/>
-<img src = "https://github.com/sameerad2001/JWT_Auth_Client/blob/master/public/jwt2.jpg" alt = "Website Demo"/>
+<img src = "https://github.com/sameerad2001/JWT_Auth_Server/blob/master/img/jwt.gif" alt = "Website Demo"/>
+<img src = "https://github.com/sameerad2001/JWT_Auth_Server/blob/master/img/jwt3.jpg" alt = "Website Demo"/>
+<img src = "https://github.com/sameerad2001/JWT_Auth_Server/blob/master/img/jwt1.jpg" alt = "Website Demo"/>
+<img src = "https://github.com/sameerad2001/JWT_Auth_Server/blob/master/img/jwt2.jpg" alt = "Website Demo"/>
 
 ### How are the HTTP only cookies being set (Cross Domain)?
 1. The express server (hosted on a different domain) generates an access token and a refresh token and sends this as **json data** inside the **body** of the response (This is done because we can't send cookies between 2 different domains)
